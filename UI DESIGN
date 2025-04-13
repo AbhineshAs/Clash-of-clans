@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASH OF CLANS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="clash.css" rel="stylesheet">
+</head>
+<body>
+ <div id="image">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+          <img src="https://supercell.com/_next/static/media/supercell_logo.50e3c1ff.webp" style="height:70px; width:70px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://supercell.com/en/games/" style="color: aliceblue;">Game</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://supercell.com/en/careers/ "style="color: white;">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="https://supercell.com/en/support/"style="color: white;">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="https://supercell.com/en/about-us/"style="color: white;">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button id="q" type="button" class="btn btn-secondary" href="https://store.supercell.com/">Store</button>  
+              <button id="w" type="button" class="btn btn-secondary" href="https://creators.supercell.com/en">C</button>
+              <button id="e" type="button" class="btn btn-secondary" href="https://make.supercell.com/en/">M</button>
+              <button id="r" type="button" class="btn btn-secondary" href="https://supercell.com/en/supercell-id/">ID</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</div>
+<div class="card" style="width: 45rem; margin-top: 20px;">
+  <img src="https://supercell.com/images/e6f04ebde8a85ae7d5f9a0a851e664fa/bg_intro_clashofclans.134fece1.webp" class="card-img-top" alt="image">
+  </div>
+  <div class="h">
+  <h1 >LEAD YOUR CLAN TO VICTORY!</h1>
+  <p >Answer the call of the mustache! Join the international fray that is Clash of Clans. Customize your village, build an army and crush your opponents. Like using friendship to strike fear into your enemies? Join a Clan, or establish a Clashing legacy by creating your own. The choice is yours in this millions-strong community of Barbarians. Download for free and Clash on, Chief!</p>
+  <button id="z"><img src="https://supercell.com/images/77dbc400547607641a67dc22eac80d02/appstore.c44572b2.webp" alt="icon" width="100" height="50" class="me-2"
+    type="button" class="btn btn-dark"></button>
+  <button id="x" ><img src="https://supercell.com/images/a6c4b3dfd04e9b1555218dc61217396b/googleplay.4ced544f.webp" alt="icon" width="100" height="50" class="me-2"
+    type="button" class="btn btn-dark"></button>
+  <button id="c" ><img src="https://supercell.com/images/ec606f29d739f71d785d93baa90df0b9/amazon_appstore.7b543a13.webp" alt="icon" width="100" height="50" class="me-2"
+    type="button" class="btn btn-dark"></button>
+</div>
+<div class="head">
+  <h1><b>News</b></h1>
+</div>
+<div class="barbe" style="width: 40rem;">
+  <img src="https://clashofclans.inbox.supercell.com/lqe2co20rkhw/26HvreFBvU4n5KHgMUcKr7/ca03c18b512f29a17379622bc3c6e702/WWE_SPLASH_A_COMP_008_CLEAN_ALL.jpg?w=800&h=433&fit=fill&f=center&fm=webp" alt="icon" width="100%" height="75%"class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="text" style="text-align: center; -webkit-text-fill-color: rgb(149, 10, 10)  ;"><b>Clash of Clans</b></h3>
+    <p style="text-align: center;"><b> Friend or Foe Medal Event is here!</b></p>
+  </div>
+  <div class="barb" style="width: 40rem;">
+    <img src="https://clashofclans.inbox.supercell.com/lqe2co20rkhw/26HvreFBvU4n5KHgMUcKr7/ca03c18b512f29a17379622bc3c6e702/WWE_SPLASH_A_COMP_008_CLEAN_ALL.jpg?w=800&h=433&fit=fill&f=center&fm=webp" alt="icon" width="100%" height="75%"class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="text" style="text-align: center; -webkit-text-fill-color: rgb(149, 10, 10)  ;"><b>Clash of Clans</b></h3>
+    <p style="text-align: center;"><b> Welcome to ClashaMania!!</b></p>
+    </div>
+</div>
+</div>
+<div class="text-center">
+<button type="button" class="btn btn-primary" >CLASH OF CLANS NEWS</button>
+</div>
+<div class="background">
+  <img src="C:\Users\adars\OneDrive\Documents\java\White track technology\Screenshot 2025-04-13 113435.png" class="img-fluid" alt="image">
+</div>
+<div class="container mt-5">
+  <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="video-card bg-white">
+              <div class="video-thumbnail">
+                <img src="C:\Users\adars\OneDrive\Documents\java\White track technology\games_clashofclans_video_goblinwizard_thumbnail.5d105814.webp" alt="Video 1">
+                <span class="play-icon">&#9658;</span>
+              </div>
+              <div class="video-footer">
+                <a href="#">The Great Goblin Heist</a>
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="28" alt="YouTube logo">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="video-card bg-white">
+              <div class="video-thumbnail">
+                <img src="C:\Users\adars\OneDrive\Documents\java\White track technology\maxresdefault__17_.webp" alt="Video 2">
+                <span class="play-icon">&#9658;</span>
+              </div>
+              <div class="video-footer">
+                <a href="#">The Tale of the Goblin Wizard</a>
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="28" alt="YouTube logo">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+<section class="cta-section"style="background-color: lightblue; ">
+  <h2 style="text-align: center;">INTERESTED IN WORKING WITH US?</h2>
+  <a style="margin-left: 40%;" href="" class="btn btn-light px-4 py-2" >SEE ALL POSITIONS</a>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center mb-4">
+      <div class="col-md-6">
+        <h6>Follow us on</h6>
+        <div class="social-icons d-flex align-items-center mt-2">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="Facebook">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Instagram">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="Twitter">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="LinkedIn">
+        </div>
+      </div>
+      <div class="col-md-6 text-md-end store-buttons mt-3 mt-md-0">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+      </div>
+    </div>
+
+    <hr class="text-white">
+
+    <div class="row">
+      <div class="col-md-8">
+        <div class="d-flex flex-wrap justify-content-md-start justify-content-center">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Parent's Guide</a>
+          <a href="#">Safe and Fair Play Policy</a>
+          <a href="#">Other Legal Docs</a>
+          <a href="#">Media Center</a>
+          <a href="#">Our Domains</a>
+          <a href="#">Manage Cookies</a>
+        </div>
+        <div class="footer-bottom mt-3">
+          <p class="mb-1">Supercell Oy<br>
+            Jätkäsaarenlaituri 1<br>
+            00180 Helsinki<br>
+            Finland
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 text-md-end text-center mt-4 mt-md-0">
+        <img src="https://supercell.com/_next/static/media/supercell_logo.50e3c1ff.webp" class="footer-logo" alt="Supercell Logo">
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
