@@ -1,0 +1,15 @@
+#a{
+    width: 100vw; 
+    height: 100vh; 
+    display: cover;
+    align-items: center;
+    background-repeat: repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+
+}
+#b{
+    color: rgb(20, 20, 20);
+    font-size: 15px;    
+    margin-left: 200px;
+}

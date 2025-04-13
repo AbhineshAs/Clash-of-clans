@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        .calculator {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .btn {
+            width: 60px;
+            height: 60px;
+            font-size: 20px;
+        }
+        #result {
+            font-size: 24px;
+            height: 50px;
+            margin-bottom: 10px;
+            text-align: right;
+            padding-right: 10px;
+            background: #eee;
+            line-height: 50px;
+            border-radius: 5px;
+        }
+    </style>
+</head> 
+<body>  
+
+    <div class="calculator">
+        <h3>Calculator</h3>
+        <div id="result" class="form-control">0</div>
+        <div class="row mt-2">
+            <div class="col"><button class="btn btn-danger" onclick="clearResult()">C</button></div>
+            <div class="col"><button class="btn btn-secondary" onclick="appendValue('/')">/</button></div>
+            <div class="col"><button class="btn btn-secondary" onclick="appendValue('*')">×</button></div>
+            <div class="col"><button class="btn btn-secondary" onclick="deleteLast()">⌫</button></div>
+        </div>
+        <div class="row mt-2">
+            <div class="col"><button class="btn btn-light" onclick="appendValue('7')">7</button></div>
+            <div class="col"><button class="btn btn-light" onclick="appendValue('8')">8</button></div>
+            <div class="col"><button class="btn btn-light" onclick="appendValue('9')">9</button></div>
+            <div class="col"><button class="btn btn-secondary" onclick="appendValue('-')">-</button></div>
+        </div>
+        <div class="row mt-2">
+            <div class="col"><button class="btn btn-light" onclick="appendValue('4')">4</button></div>
+            <div class="col"><button class="btn btn-light" onclick="appendValue('5')">5</button></div>
+            <div class="col"><button class="btn btn-light" onclick="appendValue('6')">6</button></div>
+            <div class="col"><button class="btn btn-secondary" onclick="appendValue('+')">+</button></div>
+        </div>
+        <div class="row mt-2">
+            <div class="col"><button class="btn btn-light" onclick="appendValue('1')">1</button></div>
+            <div class="col"><button class="btn btn-light" onclick="appendValue('2')">2</button></div>
+            <div class="col"><button class="btn btn-light" onclick="appendValue('3')">3</button></div>
+            <div class="col" rowspan="2"><button class="btn btn-primary" style="height: 130px;" onclick="calculate()">=</button></div>
+        </div>
+        <div class="row mt-2">
+            <div class="col"colspan="2"><button class="btn btn-light" style="width: 130px;" onclick="appendValue('0')">0</button></div>
+            <div class="col"><button class="btn btn-light" onclick="appendValue('.')">.</button></div>
+        </div>
+    </div>
+
+    <script>
+        let result = document.getElementById("result");
+
+        function appendValue(value) {
+            if (result.innerText === "0") {
+                result.innerText = value;
+            } else {
+                result.innerText += value;
+            }
+        }
+
+        function clearResult() {
+            result.innerText = "0";
+        }
+
+        function deleteLast() {
+            result.innerText = result.innerText.slice(0, -1);
+            if (result.innerText === "") {
+                result.innerText = "0";
+            }
+        }
+
+        function calculate() {
+            try {
+                result.innerText = eval(result.innerText);
+            } catch {
+                result.innerText = "Error";
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
