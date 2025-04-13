@@ -1,0 +1,188 @@
+.container-fluid{
+    margin-left:100px;
+    margin-right: 100px;
+    background-color: rgba(0, 0, 0, 0.863);
+    position:-webkit-sticky;
+     
+    
+      
+}
+#image
+{
+    background-image:url('https://supercell.com/images/ae58a39e76410b4ae9c2bea65d4a584d/1681/hero_bg_clashofclans_.fae7c799.webp');
+    height: 5px;
+    align-items: center;
+    padding: 0 20px;
+    padding-block-end: 43%;
+    background-repeat: no-repeat;
+
+}
+
+#q{
+    margin-left: 5px;
+    margin-right:5px;
+}
+#w{
+    margin-left: 5px;
+    margin-right:5px;
+    
+}
+#e{
+    margin-left: 5px;
+    margin-right:5px;
+}
+#r{
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.Heroimage{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    
+}
+
+.h{
+    margin-left: 750px;
+    margin-top: -250px;
+}
+#z{
+    margin-left: 5px;
+    margin-right:5px;
+
+   
+}
+#x{
+    margin-left: 5px;
+    margin-right:5px;
+    
+   
+    
+}
+#c{
+    margin-left: 5px;
+    margin-right:5px;
+   
+}
+#v{
+    margin-left: 5px;
+    margin-right:5px;
+    
+    
+}
+.head{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.barbe{
+    margin-left: 100px;
+    margin-top: 0;
+}
+.barb{
+    margin-left: 700px;
+    margin-top: -463px;
+    
+}
+.background{
+    background-image:url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/07/battle-copter-and-battle-machine-coc.jpg');
+    
+    padding-block-end:10%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+.img-fluid{
+    width: 760px;
+    height: 500px; 
+    margin-left: 50%;
+    background-repeat: no-repeat;
+    margin-top: 20%;
+   
+}
+.video-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .video-thumbnail {
+    position: relative;
+  }
+
+  .video-thumbnail img {
+    width: 100%;
+    display: block;
+  }
+
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    opacity: 0.8;
+  }
+
+  .video-footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .video-footer a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #007bff;
+  }
+  .cta-section h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .cta-section .btn {
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 1rem;
+  }
+
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer .social-icons img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .footer .store-buttons img {
+    height: 45px;
+    margin: 0 10px;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid #444;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .footer-logo {
+    max-width: 100px;
+  }
